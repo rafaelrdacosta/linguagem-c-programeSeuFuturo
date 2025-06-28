@@ -21,12 +21,17 @@ int main(){
     printf("Digite sua idade: ");
     scanf("%d", &idade);
 
-    if(sexo == 'm'){
+    /*if(sexo == 'm'){
         if(idade == 18)
           printf("\n\tAlistamento obrigatório\n!");
         else
           printf("\n\tDispensado!\n");
     }else
+        printf("\n\tDispensado!\n");*/
+
+    if(sexo == 'm' && idade == 18)
+        printf("\n\tAlistamento obrigatório\n!");
+    else
         printf("\n\tDispensado!\n");
 
     return 0;
