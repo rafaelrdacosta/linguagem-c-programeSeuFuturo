@@ -30,6 +30,7 @@ int main(){
     scanf("%d", &n5);
 
     //Verificação de quantidade de positivos e negativos
+    //considerando o zero como positivo
     n1 >= 0 ? pos++ : neg++;
     n2 >= 0 ? pos++ : neg++;
     n3 >= 0 ? pos++ : neg++;
