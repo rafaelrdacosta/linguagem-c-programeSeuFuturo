@@ -12,10 +12,8 @@
     int soma = 0;
 
     for(int i = 1; i < 1000; i++){
-        if(i % 2 != 0){
-            printf("%d ", i);
+        if(i % 2 != 0)
              soma += i;
-        }
     }
 
     printf("\nSoma dos números ímpares entre 1 e 100: %d\n", soma);
