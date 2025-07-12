@@ -19,9 +19,9 @@ I=9 J=13
 */
 
 int main(){
-    for(int i = 1; i <= 15; i++){
-        for(int j = 1; j <= i; j++)
-            printf("I = %d - J = %d\n", i, j);
+    for(int i = 1; i <= 9; i += 2){
+        for(int j = 6; j >= 4; j--)
+            printf("I = %d - J = %d\n", i, i + j);
         putchar('\n');
     }
     return 0;
