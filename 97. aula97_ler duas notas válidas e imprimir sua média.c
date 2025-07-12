@@ -39,7 +39,5 @@ int main(){
 
     }while(opcao == 1);
 
-
-
     return 0;
 }
